@@ -22,4 +22,4 @@ RUN ionic build
 EXPOSE 8100
 
 # Define the Docker image's behavior at runtime
-CMD ["ionic", "serve", "--external", "--host=acf814c7d4dd04eb89d61f5146033503-538083464.eu-central-1.elb.amazonaws.com"]
+CMD ["ionic", "serve"]
